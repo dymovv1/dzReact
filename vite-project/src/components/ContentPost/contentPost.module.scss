@@ -1,0 +1,32 @@
+.post {
+  max-width: 530px;
+  box-shadow: 1px 3px 5px 1px lightslategrey;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  background: whitesmoke;
+  border-radius: 10px;
+
+  &-text {
+    max-width: 520px;
+
+  }
+
+  &-paragraph{
+    padding-top: 10px;
+  }
+
+  &-title {
+    padding-top: 20px;
+  }
+
+  &-img{
+    width: 530px;
+    border-radius: 10px 10px 0 0;
+
+  }
+
+  }
+
+

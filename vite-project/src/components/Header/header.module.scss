@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  background: lightblue;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0 1px 4px 2px lightsteelblue;
+
+
+  &-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  &-buttons {
+    display: inline-flex;
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+
+  &-buttons:hover {
+    background: lightslategray;
+    border-radius: 50px;
+  }
+
+  &-burger {
+    background: lightslategrey;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+  }
+
+  .burger-line {
+    width: 30px;
+    height: 2px;
+    display: block;
+    background: aliceblue;
+  }
+}
+
+.btn-block {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}

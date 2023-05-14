@@ -1,0 +1,24 @@
+.reviews {
+  display: inline-flex;
+  padding: 10px 35px 10px 35px;
+  gap: 10px;
+  align-items: center;
+  &-body {
+    flex-direction: column;
+    display: inline-flex;
+    background: whitesmoke;
+    max-width: 240px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px 1px lightslategrey;
+  }
+
+  &-text {
+    color: lightslategray;
+    padding-top: 5px;
+  }
+
+  &-img {
+    width: 40px;
+    border-radius: 50%;
+  }
+}

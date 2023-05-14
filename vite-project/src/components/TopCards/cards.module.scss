@@ -1,0 +1,64 @@
+.cards {
+
+  &-body {
+    display: inline-flex;
+    gap: 50px;
+    margin-bottom: 30px;
+
+  }
+
+  &-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  &-item {
+    display: flex;
+    align-items: end;
+    padding: 20px;
+    border-radius: 10px;
+    width: 240px;
+    box-shadow: 1px 3px 5px 1px lightslategrey;
+    justify-content: space-between;
+    transition: all 0.25s;
+    cursor: pointer;
+
+  }
+
+  &-item:hover {
+    opacity: 75%;
+
+  }
+
+  &-total {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &-item:nth-of-type(1) {
+    background: aliceblue;
+  }
+
+  &-item:nth-of-type(2) {
+    background: #ffae52;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-item:nth-of-type(3) {
+    background: #91c4b8;
+  }
+
+  &-item:nth-of-type(4) {
+    background: #6188c2;
+  }
+}
+
+
+.item-text {
+  display: flex;
+  color: #0f1f38;
+  flex-direction: column;
+  align-items: end;
+  gap: 5px;
+}

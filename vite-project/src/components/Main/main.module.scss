@@ -1,0 +1,47 @@
+.main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  &-body__components {
+    display: inline-flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+  }
+
+  &-dashboard {
+    background: whitesmoke;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px 0 lightslategrey;
+    font-size: 20px;
+  }
+  &_body {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}
+
+.dashboard {
+  &-item {
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+  &-item:hover {
+    color: lightskyblue;
+  }
+  &-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+  &-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px;
+    white-space: nowrap;
+  }
+}
